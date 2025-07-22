@@ -1,0 +1,2 @@
+editors.blade.php
+index.blade.php
