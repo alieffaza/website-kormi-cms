@@ -95,7 +95,7 @@ chmod 644 .env
 ```
 
 ### Step 5: Testing
-1. **Test Website:** https://kormi-kaltim.id
+1. **Test Website:** https:kormi-kaltim.id
 2. **Test Admin Panel:** https://kormi-kaltim.id/admin
 3. **Test Email:** Contact form dan reset password
 

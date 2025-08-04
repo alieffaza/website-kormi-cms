@@ -1,0 +1,97 @@
+# Laravel .htaccess for Root Domain
+# This file should be placed in the root domain (not public_html)
+
+# Prevent direct access to sensitive files
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "composer.json">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "composer.lock">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "artisan">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Prevent access to storage and bootstrap/cache
+<Directory "storage">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+<Directory "bootstrap/cache">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Prevent access to vendor directory
+<Directory "vendor">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Prevent access to app directory
+<Directory "app">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Prevent access to config directory
+<Directory "config">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Prevent access to database directory
+<Directory "database">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Prevent access to resources directory
+<Directory "resources">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Prevent access to routes directory
+<Directory "routes">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Prevent access to .git directory
+RedirectMatch 404 /\.git
+
+# Prevent access to backup files
+<FilesMatch "\.(bak|backup|old|orig|save|swp|tmp)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Prevent access to log files
+<FilesMatch "\.(log|txt)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch> 

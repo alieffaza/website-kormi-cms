@@ -1,0 +1,31 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Composer.phar - Composer Package Manager
+ * 
+ * INSTRUKSI DOWNLOAD COMPOSER:
+ * 
+ * 1. Download composer.phar dari: https://getcomposer.org/composer.phar
+ * 2. Atau jalankan: curl -sS https://getcomposer.org/installer | php
+ * 3. Rename composer.phar jika perlu
+ * 
+ * PENGGUNAAN:
+ * php composer.phar install
+ * php composer.phar update
+ * php composer.phar dump-autoload
+ * 
+ * UNTUK HOSTINGER:
+ * - Upload composer.phar ke root domain
+ * - Jalankan: php composer.phar install --optimize-autoloader --no-dev
+ * 
+ * VERSION: 2.6.5
+ * PHP REQUIREMENT: 8.0+
+ */
+
+// Placeholder file - Download composer.phar dari https://getcomposer.org/composer.phar
+echo "Composer.phar placeholder file\n";
+echo "Please download composer.phar from: https://getcomposer.org/composer.phar\n";
+echo "Or run: curl -sS https://getcomposer.org/installer | php\n";
+
+// Exit with error code
+exit(1); 
