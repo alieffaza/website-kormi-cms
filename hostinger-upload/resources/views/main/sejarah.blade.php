@@ -1,0 +1,13 @@
+@extends('main.layouts.app')
+@section('content')
+<div class="container py-4 px-2">
+    <h2 class="mb-4 text-center">Sejarah KORMI</h2>
+    <div class="card shadow-sm p-4">
+        <p>Komite Olahraga Masyarakat Indonesia disingkat <b>KORMI</b> adalah organisasi keolahragaan nasional sebagai satu-satunya wadah berhimpun berbagai induk organisasi olahraga (INORGA) masyarakat Indonesia yang berstatus mandiri. KORMI didirikan 9 September 2000 di Jakarta dengan nama Federasi Olahraga Masyarakat Indonesia disingkat FOMI, dan selanjutnya menyesuaikan diri dengan peraturan perundangundangan yang berlaku menjadi Federasi Olahraga Rekreasi-Masyarakat Indonesia disingkat FORMI pada 5 Desember 2009 dan 28 September 2020 berubah menjadi Komite Olahraga Rekreasi-Masyarakat Indonesia, terakhir menjadi Komite Olahraga Masyarakat Indonesia disingkat KORMI melalui proses Musyawarah Nasional Luar Biasa (Munaslub) yang diselenggarakan pada hari Rabu 22 Februari 2023. KORMI juga merupakan anggota dari TAFISA (The Association For International Sport for All).</p>
+        <p>Pada tahun 2023, KORMI sudah berada di 38 Provinsi dan Kabupaten/Kota dibawahnya serta memiliki anggota sebanyak 84 Inorga yang terbagi dalam 3 Komisi yaitu Komisi Olahraga dan Kebugaran (OKK), Komisi Olahraga Tradisional dan Kreasi Budaya (OTKB) dan Komisi Olahraga Petualangan dan Tantangan (OPT).</p>
+        <p>Organisasi olahraga yang sekarang bernama KORMI (Komite Olahraga Masyarakat Indonesia), dibentuk tanggal 9 September tahun 2000 di Jakarta, dengan nama awal FOMI (Federasi Olahraga Masyarakat Indonesia).</p>
+        <p>Pada Munas tanggal 4-5 Desember 2009, nama FOMI kemudian diganti menjadi FORMI (Federasi Olahraga Masyarakat Indonesia). Pergantian nama tersebut guna menyesuaikan diri dengan Undang-Undang Sistem Keolahragaan Nasional (UU-SKN) Nomor 3 Tahun 2005, yang mengatur ruang lingkup olahraga nasional menjadi 3 kategori, yakni Olahraga Pendidikan, Olahraga Prestasi.</p>
+        <p>KORMI bermula dari Federasi Olahraga Masyarakat Indonesia (FOMI) yang didirikan oleh beberapa induk organisasi olahraga. Seiring berkembangnya waktu dan dinamika di Pemerintahan, FOMI pun bertransformasi menjadi Federasi Olahraga Rekreasi Masyarakat Indonesia (FORMI) dan pada tahun 2020 kembali melakukan perubahan menjadi Komite Olahraga Rekreasi Masyarakat Indonesia atau KORMI dan ditahun 2022 melakukan perubahan lagi dengan menghapuskan kata Rekreasi dan menjadi Komite Olahraga Masyarakat Indonesia melalui proses Musyawarah Nasional Luar Biasa (Munaslub) yang diselenggarakan pada hari Rabu 22 Februari 2023.</p>
+    </div>
+</div>
+@endsection 
